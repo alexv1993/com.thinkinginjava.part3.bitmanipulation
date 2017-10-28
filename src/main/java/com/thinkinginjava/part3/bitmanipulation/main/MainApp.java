@@ -67,7 +67,5 @@ public class MainApp {
         Show.printBinaryLong("(~l) >> 5", (~bitOperations.getL()) >> 5);
         Show.printBinaryLong(" l >>> 5", bitOperations.getL() >>> 5);
         Show.printBinaryLong("(~l) >>> 5", (~bitOperations.getL()) >>> 5);
-
-
     }
 }
