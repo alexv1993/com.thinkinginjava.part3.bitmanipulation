@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"-->
+<!--"http://hibernate.org/dtd/hibernate-mapping-3.0.dtd">-->
+<!DOCTYPE hibernate-mapping SYSTEM
+        "classpath://org/hibernate/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.thinkinginjava.part3.bitmanipulation.model.BitOperations" table="BITOPERATIONS">
+        <id name="ID" type="int">
+            <column name="ID"/>
+            <generator class="increment"/>
+        </id>
+        <property name="i" type="int">
+            <column name="I"/>
+        </property>
+        <property name="j" type="int">
+            <column name="J"/>
+        </property>
+        <property name="maxpos" type="int">
+            <column name="MAXPOS"/>
+        </property>
+        <property name="maxneg" type="int">
+            <column name="MAXNEG"/>
+        </property>
+        <property name="l" type="long">
+            <column name="L"/>
+        </property>
+        <property name="m" type="long">
+            <column name="M"/>
+        </property>
+        <property name="ll" type="long">
+            <column name="LL"/>
+        </property>
+        <property name="lln" type="long">
+            <column name="LLN"/>
+        </property>
+    </class>
+</hibernate-mapping>
